@@ -1,0 +1,564 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: #fffcfc;
+
+   
+
+}
+.hd-1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+.inner-hd-1{
+    margin-left:16px ;
+    margin-top: 12px;
+    width: 30px;
+    height: 30px;
+    padding-top: 1px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.nav-icon{
+    margin-left: 7px;
+    width: 100%;
+    height:30px;
+    
+   
+}
+
+
+.yt-icon{
+    margin-left: 14px;
+    height: 100%;
+    width: 114px;
+    
+}
+
+
+.hd-2{
+    width: 60%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    position: relative;
+}
+.input-space{
+    margin-top: 8px;
+    width: 540px;
+    height: 42px;
+    border-radius:20px 0px 0px 20px;
+    border:solid 1px gray;
+    padding-left: 10px;
+}
+
+.input-space:focus{
+    outline: 1px solid blue;
+}
+
+.search-btn{
+    margin-top: 8px;
+    height: 42px;
+    border: 1px solid gray;
+    border-radius: 0px 20px 20px 0px;
+    width: 70px;
+    position: absolute;
+    left: 540px;
+    cursor: pointer;
+    background-color:#F5F5F5;
+}
+.search-btn:hover{
+    background-color: rgb(225, 222, 222);
+}
+.search-icon{
+width: 28px;
+height: 27px;
+margin-top: 4px;
+margin-left: 14px;
+}
+.voice-btn{
+    border-radius: 50%;
+    background-color:#F5F5F5;
+     margin-left: 78px;
+     position: absolute;
+     height: 42px;
+     width: 42px;
+     margin-top: 8px;
+     border: 1px solid white ;
+     cursor: pointer;
+
+}
+.voice-btn:hover{
+    background-color: rgb(225, 222, 222);
+}
+.voice-icon{
+height: 19px;
+width: 20px;
+
+}
+.hd-3{
+    height: 100%;
+    width: 20%;
+    position: relative;
+    
+}
+.video-btn {
+   left: 82px;
+   top: 12px;
+    border-radius: 50%;
+    background-color: #fffcfc;
+height: 40px;
+width: 40px;
+cursor: pointer;
+border: 1px solid white ;
+position: absolute;
+}
+.video-btn:hover{
+    background-color:  rgb(225, 222, 222);
+}
+.video-icon{
+    padding-top: 1px;
+height: 24px;
+width: 23px;
+}
+.bell-btn {
+    background-color: #fffcfc;
+left: 134px;
+top: 16px;
+border-radius: 50%;
+height: 33px;
+width: 33px;
+cursor: pointer;
+border: 1px solid white ;
+position: absolute;
+}
+.bell-btn:hover{
+    background-color:  rgb(225, 222, 222);
+}
+.bell-icon{
+height: 21px;
+width: 20px;
+}
+.acc-btn {
+cursor: pointer;
+left: 181px;
+top: 12px;
+border-radius: 50%;
+background-color:#fffcfc;
+height: 33px;
+width: 33px;
+
+border: 1px solid white ;
+position: absolute;
+}
+.acc-btn:hover{
+    background-color:  rgb(225, 222, 222);
+}
+.acc-icon{
+    border-radius: 50%;
+height: 33px;
+width: 33px;
+}
+.condent{
+    display: flex;
+    width: 100%;
+    
+}
+.left-section{
+    background-color: white;
+    width: 6.2%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 56px;
+   
+}
+.home-btn{
+    width: 100%;
+    height: 75px;
+    background-color:white;
+    text-decoration: none;
+}
+.home-btn:hover{
+    border-radius: 20px;
+    background-color: rgb(225, 222, 222); 
+}
+.home-icon{
+    height: 27px;
+    width: 23px;
+    margin-top: 15px;
+    margin-left: 26px;
+}
+.home-text{
+    margin-left: 22px;
+    color: black;
+}.short-btn{
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    text-decoration: none;
+}
+.short-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.short-btn:hover{
+    border-radius: 20px;
+    background-color: rgb(225, 222, 222); 
+}
+.short-text{
+    margin-left: 19px;
+    color: black;
+}
+.sub-btn{
+    width: 100%;
+    height: 75px;
+    background-color:white;
+    text-decoration: none;
+}
+.sub-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.sub-btn:hover{
+    border-radius: 20px;
+    background-color: rgb(225, 222, 222); 
+}
+.sub-text{
+    font-size: 13px;
+    color: black;
+    margin-left: 2px;
+}
+.libary-btn{
+    width: 100%;
+    height: 75px;
+    background-color:white;
+    text-decoration: none;
+}
+.libary-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.libary-btn:hover{
+    border-radius: 20px;
+    background-color: rgb(225, 222, 222); 
+}
+.libary-text{
+    font-size: 13px;
+    color: black;
+    margin-left: 18px;
+}
+
+.download-btn{
+    width: 100%;
+    height: 75px;
+    background-color:white;
+    text-decoration: none;
+}
+.download-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.download-btn:hover{
+    border-radius: 20px;
+    background-color: rgb(225, 222, 222); 
+}
+.download-text{
+    font-size: 13px;
+    color: black;
+    margin-left: 7px;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+}
+.right-top-section{
+    left: 6.2%;
+    top: 56px;
+width: 93.8%;
+height: 48px;
+background-color:white;
+position: fixed;
+display: flex;
+}
+.section-btn-All{
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 39px;
+    text-align: center;
+    background-color:black;
+    color: #fffcfc;
+    cursor: pointer;
+}
+
+
+.section-btn-News{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 46px;
+    cursor: pointer;
+}
+.section-btn-Tamilcinema{
+    background-color:#F5F5F5;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 104px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.section-btn-Html{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 44px;
+    cursor: pointer;
+}
+.section-btn-Computer{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 8px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 130px;
+    cursor: pointer;
+}
+.section-btn-Music{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 50px;
+    cursor: pointer;
+}
+.section-btn-Motorcycles{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 90px;
+    cursor: pointer;
+}
+.section-btn-Gadgets{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 63px;
+    cursor: pointer;
+}
+.section-btn-Grammar{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 70px;
+    cursor: pointer;
+}
+.section-btn-CSS{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 36px;
+    cursor: pointer;
+}
+.section-btn-Sports{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 102px;
+    cursor: pointer;
+}
+.section-btn-Thoughts{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 67px;
+    cursor: pointer;
+}
+.section-btn-Game{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 94px;
+    cursor: pointer;
+}
+.section-btn-Highlight{
+    background-color:#F5F5F5;
+    text-align: center;
+    padding-top: 4px;
+    margin:10px 1px 0px 0px;
+    height: 31px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    list-style: none;
+    width: 110px;
+    cursor: pointer;
+}
+.scroll-section{
+margin-top: 104px;
+margin-left: 6.6%;
+width: 1150px;
+background-color:white;
+padding: 20px 10px;
+}
+.video-sectoin{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 275px 275px 275px;
+    grid-gap: 0px 16px;
+
+}
+.video-img{
+    width: 100%;
+    height: 154px;
+    border-radius: 19px
+}
+.vid-1-text{
+    width: 100%;
+    height: 94px;
+}
+.vid-1-text1{
+    padding-top: 8px;
+   font-size: 14px;
+   font-family: "Roboto","Arial",sans-serif;
+
+
+}
+.vid-1-text2{
+    padding-top: 5px;
+   font-size: 14px;
+   font-family: "Roboto","Arial",sans-serif;
+}
+.vid-1-text3{
+    padding-top: 5px;
+   font-size: 14px;
+   font-family: "Roboto","Arial",sans-serif;
+}
+.vid-2-text{
+    width: 100%;
+    height: 94px;
+    display: flex;
+}
+.vid-logo{
+height: 36px;
+width: 36px;
+border-radius: 50%;
+margin-top: 3px;
+}
+
+.vid-all-text-1{
+    padding-left: 4px;
+    padding-top: 4px;
+    font-family: "Roboto","Arial",sans-serif ;
+}
+.vid-3-text{
+    width: 100%;
+    height: 94px;
+    display: flex;
+}
+.vid-4-text{
+    width: 100%;
+    height: 94px;
+    display: flex;
+}
+.small-text{
+    font-size: 12px;
+    color: gray;  
+}
+
